@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="SpriteFrames" subresource_count="3" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+	<ext_resource path="res://sprites/bullet-player-black.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://sprites/bullet-player-white.png" type="Texture" index="0"></ext_resource>
+	<main_resource>
+		<array name="frames" len="2" shared="false">
+			<resource  external="0">  </resource>
+			<resource  external="1">  </resource>
+		</array>
+
+	</main_resource>
+</resource_file>
