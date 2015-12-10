@@ -1,5 +1,7 @@
 extends Node2D
 
+const Input_helper = preload("helpers/input_helper.gd")
+
 var binary_color = null
 
 func _ready():
@@ -7,8 +9,5 @@ func _ready():
   set_process_input(true)
 
 func _input(event):
-  if(event_says_action_was_just_pressed(event, "toggle_color")):
+  if(Input_helper.event_says_action_was_just_pressed(event, "toggle_color")):
     binary_color.toggle_color()
- 
-func event_says_action_was_just_pressed(event, action):
-  return event.is_action(action) && event.is_pressed() && !event.is_echo() 

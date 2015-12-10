@@ -7,7 +7,7 @@ var sprite = null
 const WHITE = 0
 const BLACK = 1
 
-var color = WHITE setget set_color
+var color = WHITE setget set_color,get_color
 
 func _ready():
   sprite = get_child(0)
@@ -21,3 +21,6 @@ func toggle_color():
 func set_color(new_color):
   color = new_color
   sprite.set_frame(new_color)
+
+func get_color():
+  return color
