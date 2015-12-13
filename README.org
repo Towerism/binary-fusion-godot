@@ -1,0 +1,7 @@
+* Binary Fusion
+A black and white shoot em up created using Godot Engine
+** Requirements
+- Godot Engine (only for exporting)
+- Godot export templates (see http://www.godotengine.org/projects/godot-engine/documents)
+** Exporting
+Use the export feature of Godot Engine. You'll have to install the export templates yourself. The export settings are already saved in ~export.cfg~.
